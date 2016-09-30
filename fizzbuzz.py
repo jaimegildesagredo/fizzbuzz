@@ -15,7 +15,7 @@ def fizzbuzz(number):
 
 
 def _is_fizz(number):
-    return number % 3 == 0
+    return number % 3 == 0 or '3' in str(number)
 
 
 def _is_buzz(number):

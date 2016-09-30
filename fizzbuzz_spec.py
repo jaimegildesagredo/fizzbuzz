@@ -29,3 +29,11 @@ with describe('The Fizzbuzz game'):
     with context('when the given number is not divisible by 3 nor 5'):
         with it('returns the same number'):
             expect(fizzbuzz(2)).to(equal(2))
+
+    with context('when the given number is not divisible by 3 but contains a 3'):
+        with it('returns "Fizz"'):
+            expect(fizzbuzz(23)).to(equal('Fizz'))
+
+
+
+# Un número es Buzz si es divisible por 5 o si incluye un 5 en el número
