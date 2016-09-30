@@ -19,7 +19,7 @@ def _is_fizz(number):
 
 
 def _is_buzz(number):
-    return number % 5 == 0
+    return number % 5 == 0 or '5' in str(number)
 
 
 def _is_fizzbuzz(number):
