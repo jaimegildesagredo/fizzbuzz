@@ -10,6 +10,10 @@ with describe('The Fizzbuzz game'):
         with it('returns "Fizz"'):
             expect(fizzbuzz(3)).to(equal('Fizz'))
 
+    with context('when the given number is divisible by 3'):
+        with it('returns "Fizz"'):
+            expect(fizzbuzz(9)).to(equal('Fizz'))
+
 
 
 # Devuelve Fizz si el número es divisible por 3.
