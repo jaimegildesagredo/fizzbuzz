@@ -7,4 +7,7 @@ def fizzbuzz(number):
             return 'FizzBuzz'
         return 'Fizz'
 
-    return 'Buzz'
+    if number % 5 == 0:
+        return 'Buzz'
+
+    return number

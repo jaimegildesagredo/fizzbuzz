@@ -25,3 +25,7 @@ with describe('The Fizzbuzz game'):
     with context('when the given number is divisible by 3 and 5'):
         with it('returns "FizzBuzz"'):
             expect(fizzbuzz(15)).to(equal('FizzBuzz'))
+
+    with context('when the given number is not divisible by 3 nor 5'):
+        with it('returns the same number'):
+            expect(fizzbuzz(2)).to(equal(2))
